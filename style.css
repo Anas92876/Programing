@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./Images/OIP.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    gap: 10rem;
+    padding: 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+}
+nav ul{
+    display: flex;
+    gap: 8rem;
+    list-style: none;
+    align-self: center;
+    
+}
+nav h2{
+    font-size: 3.5rem;
+    color: #F86E01;
+    padding-left: 5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    padding: 1rem;
+}
+.searching{
+    display: flex;
+    padding-right: 4rem;
+    align-self: center;
+    width: 267px;
+    border: 2px solid #F86E01;
+    border-radius: 0.5rem;
+}
+.searching input{
+    background: none;
+    flex-grow: 1;
+    border: none;
+    padding: 1rem;
+    color: lightslategray;
+}
+.searching button{
+    background-color: #F86E01;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    flex-grow: 1;
+}
+nav a:hover{
+    color: lightslategrey;
+    border-bottom:2px solid #F86E01 ;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-main{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  line-height:1.2 ;
+  
+}
+.info{
+    font-size: 5rem;
+    color: white;
+}
+.focus{
+    color: #F86E01;
+    font-size: 7rem;
+    font-weight: 600;
+}
+.para{
+    font-size: 1.5rem;
+    color: darkgrey;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-main a{
+    background-color: #F86E01;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: rgb(68, 63, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+    align-self: flex-start;
+    margin-top: 2rem;
+    transition: all 0.4s ease-in-out;
+}
+.left-main a:hover{
+    color: #F86E01;
+    background-color: white;
+}
+.right-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    background-color: black;
+    padding: 3rem 5rem;
+    border-radius: 1rem;
+    gap: 3rem;
+    
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.going{
+    background-color: white;
+    color: #F86E01;
+    padding: 0.7rem 5rem;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem ;
+    font-weight: bold;
+}
+.right-main input{
+    border: none;
+    border-bottom: 2px solid #F86E01;
+    background: none;
+    padding: 1rem;
+    color: white;
+}
+.right-main button{
+    color: rgb(40, 38, 38);
+    background-color: #F86E01;
+    padding: 0.9rem 5rem ;
+    font-size: 1.6rem;
+    font-weight: bold;
+    border-radius:1.2rem ;
+    border: none;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(215, 204, 204);
+    font-size: 1.5rem;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content a{
+    font-size: 1.5rem;
+    color: #F86E01;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.Login{
+    color: rgb(215, 204, 204);
+    font-size: 1.5rem;
+    align-self: center;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+a i{
+    color: white;
+    font-size: 2.5rem;
+    margin: 1rem 1rem;
+    
+}
